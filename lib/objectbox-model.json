@@ -1,0 +1,186 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2879407228412763842",
+      "lastPropertyId": "23:7276490009113928749",
+      "name": "WeatherLocalModel",
+      "properties": [
+        {
+          "id": "1:6702037271643084648",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4238342738435976648",
+          "name": "dt",
+          "type": 6
+        },
+        {
+          "id": "3:4731339910145275693",
+          "name": "dtTxt",
+          "type": 9
+        },
+        {
+          "id": "4:6602397595312049149",
+          "name": "temperature",
+          "type": 8
+        },
+        {
+          "id": "5:2251490532685277842",
+          "name": "temperatureFeelsLike",
+          "type": 8
+        },
+        {
+          "id": "6:6602647212123034605",
+          "name": "dewPointTemperature",
+          "type": 8
+        },
+        {
+          "id": "7:945850110770429738",
+          "name": "temperatureUnit",
+          "type": 9
+        },
+        {
+          "id": "8:1819678313172928597",
+          "name": "pressure",
+          "type": 6
+        },
+        {
+          "id": "9:8122508990899096888",
+          "name": "pressureUnit",
+          "type": 9
+        },
+        {
+          "id": "10:5539320517637636868",
+          "name": "humidity",
+          "type": 6
+        },
+        {
+          "id": "11:6058166342299976936",
+          "name": "humidityUnit",
+          "type": 9
+        },
+        {
+          "id": "12:5568433122297751667",
+          "name": "visibility",
+          "type": 6
+        },
+        {
+          "id": "13:9188387508212310561",
+          "name": "visibilityUnit",
+          "type": 9
+        },
+        {
+          "id": "14:926052710553029810",
+          "name": "probabilityOfPrecipitation",
+          "type": 6
+        },
+        {
+          "id": "15:8254167585529159846",
+          "name": "probabilityOfPrecipitationUnit",
+          "type": 9
+        },
+        {
+          "id": "16:5397567688192632168",
+          "name": "uvJson",
+          "type": 9
+        },
+        {
+          "id": "17:313954800485388106",
+          "name": "cloudsJson",
+          "type": 9
+        },
+        {
+          "id": "18:752630989704399108",
+          "name": "rainJson",
+          "type": 9
+        },
+        {
+          "id": "19:5321379147485613736",
+          "name": "snowJson",
+          "type": 9
+        },
+        {
+          "id": "20:2766278664266237446",
+          "name": "windJson",
+          "type": 9
+        },
+        {
+          "id": "21:1931551568989458418",
+          "name": "coordJson",
+          "type": 9
+        },
+        {
+          "id": "22:8160029842742522755",
+          "name": "weatherJson",
+          "type": 9
+        },
+        {
+          "id": "23:7276490009113928749",
+          "name": "dailyJson",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8668091983976159534",
+      "lastPropertyId": "7:2966494932717752183",
+      "name": "WeatherOverviewLocalModel",
+      "properties": [
+        {
+          "id": "1:3489271219868862491",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2970288077144832615",
+          "name": "lat",
+          "type": 8
+        },
+        {
+          "id": "3:288352224611160300",
+          "name": "lon",
+          "type": 8
+        },
+        {
+          "id": "4:3796931490725390866",
+          "name": "tz",
+          "type": 9
+        },
+        {
+          "id": "5:2201690001297594626",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "6:942942054133744353",
+          "name": "units",
+          "type": 9
+        },
+        {
+          "id": "7:2966494932717752183",
+          "name": "weatherOverview",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:8668091983976159534",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
